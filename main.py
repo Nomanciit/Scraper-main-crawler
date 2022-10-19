@@ -5,8 +5,8 @@ import streamlit as st
 from multiapp import MultiApp
 import numpy as np
 #
-#from streamlit.report_thread import get_report_ctx
-from streamlit.script_run_context import get_script_run_ctx as get_report_ctx
+from streamlit.report_thread import get_report_ctx
+#from streamlit.script_run_context import get_script_run_ctx as get_report_ctx
 import overlap_detection, crawl_hashtag, crawl_user,upload_file
 
 
